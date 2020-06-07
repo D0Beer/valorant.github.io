@@ -1,0 +1,950 @@
+.main_header {
+    background-image: url("../img/poster3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 75vh;
+    position: relative;
+}
+
+.main_header_about {
+    background-image: url("../img/2576091.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: 1px 1px 5px 3px grey;
+    height: 65vh;
+    position: relative;
+}
+
+.main_header_agents {
+    background-image: url("../img/val.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    box-shadow: 1px 1px 5px 3px grey;
+    height: 65vh;
+    position: relative;
+}
+
+.main_header_weapon {
+    background-image: url("../img/phoenix-valorant-4k-l1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    box-shadow: 1px 1px 5px 3px grey;
+    height: 65vh;
+    position: relative;
+}
+
+.main_header_gallery {
+    background-image: url("../img/gallery_main.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    box-shadow: 1px 1px 5px 3px grey;
+    height: 65vh;
+    position: relative;
+}
+
+
+.text {
+    margin-top: auto 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-weight: 600;
+    color: azure;
+    font-family: 'Raleway', sans-serif;
+}
+
+.to_main {
+    position: absolute;
+    left: 25px;
+}
+
+.to_main:hover a {
+    color: #b30000;
+}
+
+.but_lr {
+    text-decoration: none;
+    color: white;
+    font-family: "Arial";
+    font-size: 23px;
+    padding: 20px 0;
+    transition: 0.3s;
+    padding: 1px 8px;
+}
+
+
+.a_bt_up {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.button_up {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #e95d5f;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+.button_return_gallery {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.a_bt_return_gallery {
+    color: aliceblue;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.a_bt_return_gallery:hover {
+    color: #e95d5f;
+    transform: scale(1.1, 1.1);
+}
+
+.button_return {
+    height: 10vh;
+    background-image: url(../img/back2.png);
+    display: flex;
+    margin-top: -5vh;
+}
+
+.a_bt_return {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 3vh;
+    transition: 0.5s;
+}
+
+.a_bt_return:hover {
+    color: #e95d5f;
+    transform: skew(10deg, 10deg);
+    z-index: 2;
+}
+
+.button_up:hover {
+    background-color: #17202A;
+    transform: rotate(360deg);
+    box-shadow: 2px 2px 15px 6px #939393;
+}
+
+.about_game {
+    width: 90vw;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_about {
+    margin-top: 10vh;
+}
+
+.imagine_about {
+    transition: 0.7s;
+}
+
+.imagine_about:hover {
+    transform: scale(0.9, 0.9);
+}
+
+.agent_image {
+    transition: 0.7s;
+}
+
+.agent_image:hover {
+    transform: scale(0.9, 0.9);
+}
+
+
+.text_about {
+    width: 50vw;
+    height: 20vh;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.info_about {
+    width: 50vw;
+    height: 20vh;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+
+.imagine_about {
+    width: 30vw;
+    height: 50vh;
+}
+
+.imagine2_about {
+    width: 40vw;
+    height: 50vh;
+}
+
+article {
+    background-image: url("../img/back2.png");
+}
+
+.article2 {
+    background-image: url("../img/bg-light-4868.png");
+}
+
+.agents_art {
+    background-image: url("../img/back.jpg");
+
+}
+
+.article_about {
+    background-image: url("../img/bg-light-4868.png");
+    height: 170vh;
+}
+
+.info_block1 {
+    margin: 0 auto;
+    width: 80vw;
+    display: flex;
+}
+
+.info_block2 {
+    margin: 0 auto;
+    width: 80vw;
+    display: flex;
+    margin-top: 5vh;
+}
+
+.info_block3 {
+    margin: 0 auto;
+    width: 80vw;
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+
+.first_text {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.second_text {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.third_text {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.img_page2_1 {
+    margin-top: 5vh;
+    margin-right: 5vw;
+    width: 30vw;
+    height: 20vw;
+    box-shadow: 1px 1px 15px 3px #4c4c4c;
+    transition: 0.5s;
+}
+
+.img_page2_1:hover {
+    box-shadow: 1px 1px 15px 3px #e95d5f;
+    transform: scale(0.99, 0.99);
+}
+
+.img_page2_2 {
+    margin-top: 5vh;
+    margin-left: 5vw;
+    width: 35vw;
+    height: 22vw;
+    box-shadow: 1px 1px 15px 3px #4c4c4c;
+    transition: 0.5s;
+}
+
+.img_page2_2:hover {
+    box-shadow: 1px 1px 15px 3px #e95d5f;
+    transform: scale(0.99, 0.99);
+}
+
+.button_learn_more {
+    width: 14vw;
+    border-radius: 100px;
+    padding: 8px;
+    transition: 0.5s;
+}
+
+.but_lr {
+    color: black;
+    font-size: 23px;
+}
+
+.button_learn_more:hover {
+    background-color: rgba(233, 93, 95, 0.7);
+    transform: scale(1.1, 1.1);
+    box-shadow: 2px 2px 5px 3px #a8a8a8;
+}
+
+.about_agents {
+    width: 90vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.text_about_agents {
+    width: 50vw;
+    height: 20vh;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.agent_image {
+    background-image: url("../img/viper.jpg");
+    background-position: top;
+    width: 30vw;
+    height: 60vh;
+    margin-top: 10vh;
+}
+
+.goToGallery {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    background-image: url("../img/bg-light-4868.png");
+}
+
+.zagolovok_gallery {
+    margin: 0 auto;
+}
+
+.to_gallery_button {
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+.to_gallery_button:hover {
+    margin: 0 auto;
+    transform: scale(1.1, 1.1);
+}
+
+
+h2 {
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.a_go_to_gallery {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    color: #e95d5f;
+    transition: 0.5s;
+}
+
+h2:hover {
+    transform: skew(25deg, -5deg);
+}
+
+.a_go_to_gallery:hover {
+    color: inherit;
+}
+
+.gallery {
+    background-image: url(../img/back.jpg);
+    display: flex;
+}
+
+.simple_photo {
+    width: 30vw;
+    margin: 0 10px 10px;
+    transition: 0.5s;
+    box-shadow: 1px 1px 15px 3px #4c4c4c;
+}
+
+.gallery_photos {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5vh;
+}
+
+.simple_photo:hover {
+    transform: scale(1.02, 1.02);
+    box-shadow: 1px 1px 15px 3px #e95d5f;
+}
+
+footer {
+    height: 30vh;
+    background-color: #17202A;
+    display: flex;
+}
+
+.socials {
+    margin: 0 auto;
+}
+
+.h3_soc {
+    margin-top: 10vh;
+}
+
+h3 {
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.go_to_socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.icon {
+    border-radius: 100px;
+    background-color: none;
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px 1px 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+a {
+    color: aliceblue;
+}
+
+.facebook:hover {
+    background-color: #4267B2;
+}
+
+.instagram:hover {
+    background-color: #C13584;
+}
+
+.youtube:hover {
+    background-color: #FF0000;
+}
+
+.vk:hover {
+    background-color: #4c75a3;
+}
+
+.twitter:hover {
+    background-color: #1DA1F2;
+}
+
+.discord:hover {
+    background-color: #7289da;
+}
+
+@media(min-width: 1921px) and (max-width: 3680px) {
+    .a_go_to_gallery {
+        font-size: 30px;
+    }
+
+    .a_bt_return_gallery {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    .simple_photo {
+        width: 30vw;
+    }
+
+    .photka {
+        margin: 0 auto;
+    }
+
+    .text_about {
+        font-size: 38px;
+    }
+
+    .text_about_agents {
+        font-size: 38px;
+    }
+
+    .imagine_about {
+        width: 25vw;
+        height: 50vh;
+    }
+
+    .text {
+        font-size: 115px;
+    }
+
+    .but_lr {
+        font-size: 30px
+    }
+
+    a {
+        font-size: 30px;
+    }
+
+    .button_learn_more {
+        width: 310px;
+    }
+
+    .but_lr {
+        font-size: 35px;
+    }
+
+    .button_up {
+        padding: 20px;
+    }
+
+    .first_text {
+        font-size: 38px;
+    }
+
+    .second_text {
+        margin-top: 5vh;
+        font-size: 38px;
+    }
+
+    .third_text {
+        margin-top: 5vh;
+        font-size: 38px;
+    }
+
+    .article_about {
+        height: auto;
+    }
+
+    .info_block3 {
+        margin-bottom: 10vh;
+    }
+
+    .main_header_about {
+        background-position: center;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    .button_return {
+        margin-top: -10vh;
+    }
+}
+
+@media(min-width: 1025px) and (max-width: 1920px) {
+    .simple_photo {
+        width: 30vw;
+    }
+
+    .a_bt_return_gallery {
+        font-size: 35px;
+    }
+
+    .photka {
+        margin: 0 auto;
+    }
+
+    .text_about {
+        font-size: 33px;
+    }
+
+    .text_about_agents {
+        font-size: 33px;
+    }
+
+    .about_game {
+        height: 75vh;
+    }
+
+    .imagine_about {
+        width: 23vw;
+        height: 40vh;
+    }
+
+    .text {
+        font-size: 100px;
+    }
+
+    a {
+        font-size: 29px;
+    }
+
+    .but_lr {
+        font-size: 29px;
+    }
+
+    .button_learn_more {
+        width: 258px;
+    }
+
+
+    .button_up {
+        padding: 15px;
+    }
+
+    .first_text {
+        font-size: 30px;
+    }
+
+    .second_text {
+        font-size: 30px;
+    }
+
+    .third_text {
+        font-size: 30px;
+    }
+
+    .article_about {
+        height: auto;
+    }
+
+    .main_header_about {
+        background-position: center;
+    }
+
+    .a_go_to_gallery {
+        font-size: 27px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    .button_return {
+        margin-top: -5vh;
+    }
+
+    .a_bt_return {
+        font-size: 30px;
+    }
+}
+
+@media(min-width: 601px) and (max-width: 1024px) {
+    .simple_photo {
+        width: 29vw;
+    }
+
+    .a_bt_return_gallery {
+        font-size: 30px;
+    }
+
+    .photka {
+        margin: 0 auto;
+    }
+
+    .text_about {
+        font-size: 26px;
+        margin-bottom: 60vh;
+    }
+
+    .imagine_about {
+        width: 39vw;
+        height: 30vh;
+    }
+
+    .about_game {
+        height: 20;
+    }
+
+    .text {
+        font-size: 80px;
+    }
+
+    a {
+        font-size: 25px;
+    }
+
+    .but_lr {
+        font-size: 22px;
+    }
+
+    .button_learn_more {
+        width: 200px;
+    }
+
+    .agent_image {
+        background-repeat: no-repeat;
+    }
+
+    .button_up {
+        padding: 10px;
+    }
+
+    .first_text {
+        font-size: 23px;
+    }
+
+    .second_text {
+        font-size: 23px;
+    }
+
+    .third_text {
+        font-size: 23px;
+    }
+
+    .article_about {
+        height: auto;
+    }
+
+    .main_header_about {
+        background-position: center;
+    }
+
+    .a_bt_return {
+        font-size: 35px;
+    }
+
+    .a_go_to_gallery {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .button_return {
+        margin-top: -5vh;
+    }
+
+    .a_bt_return {
+        font-size: 25px;
+    }
+}
+
+@media(min-width: 319px) and (max-width: 600px) {
+    .simple_photo {
+        width: 35vw;
+    }
+
+    .a_bt_return_gallery {
+        font-size: 25px;
+    }
+
+    .photka {
+        margin: 0 auto;
+    }
+
+    article {
+        display: flex;
+    }
+
+    .text_about {
+        font-size: 22px;
+        margin: 0 auto;
+        margin-bottom: 50vh;
+        width: 80vw;
+    }
+
+    .text_about_agents {
+        font-size: 22px;
+        margin: 0 auto;
+    }
+
+    .about_agents {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .agent_image {
+        height: 20vh;
+    }
+
+    .about_game {
+        height: auto;
+        display: block;
+        margin-bottom: 5vh;
+    }
+
+    .about_agents {
+        height: auto;
+        display: block;
+    }
+
+    .text_about_agents {
+        margin-bottom: 50vh;
+        width: 80vw;
+    }
+
+    .imagine_about {
+        width: 60vw;
+        height: 29vh;
+        margin-left: 15%;
+    }
+
+    .agent_image {
+        width: 38vw;
+        height: 35vh;
+        margin-left: 30%;
+    }
+
+    .text {
+        font-size: 55px;
+    }
+
+    a {
+        font-size: 19px;
+    }
+
+    .but_lr {
+        font-size: 19px;
+    }
+
+    .button_learn_more {
+        width: 174px;
+    }
+
+
+    .button_up {
+        padding: 10px;
+    }
+
+    .img_page2_1 {
+        width: 70vw;
+        height: 30vh;
+        margin-left: 5vw;
+        margin-bottom: 5vh;
+    }
+
+    .img_page2_2 {
+        width: 70vw;
+        height: 30vh;
+        margin-left: 5vw;
+        margin-bottom: 5vh;
+    }
+
+    .first_text {
+        font-size: 19px;
+    }
+
+    .second_text {
+        font-size: 19px;
+    }
+
+    .third_text {
+        font-size: 19px;
+    }
+
+    .article_about {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info_block1 {
+        display: block;
+    }
+
+    .info_block2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .info_block3 {
+        display: block;
+    }
+
+    .main_header_about {
+        margin-left: 2px;
+        width: 94vw;
+        height: 50vh;
+    }
+
+    .main_header {
+        height: 50vh;
+    }
+
+    .main_header_agents {
+        height: 50vh;
+    }
+
+    .main_header_weapon {
+        height: 50vh;
+    }
+
+    .main_header_gallery {
+        height: 50vh;
+    }
+
+    .a_bt_return {
+        font-size: 25px;
+    }
+
+    .a_go_to_gallery {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 23px;
+    }
+
+    .go_to_socials {
+        width: 30vh;
+        margin: 0 auto;
+    }
+
+    .button_return {
+        margin-top: -5vh;
+    }
+
+    .a_bt_return {
+        font-size: 23px;
+    }
+}
